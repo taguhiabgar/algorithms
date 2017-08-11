@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */; };
+		3D6E80271F3DEAD2000D2F66 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E80261F3DEAD2000D2F66 /* Utils.swift */; };
 		3DE26E291F3CDDE6009CD627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */; };
 		3DE26E2B1F3CDDE6009CD627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE26E2A1F3CDDE6009CD627 /* ViewController.swift */; };
 		3DE26E2E1F3CDDE6009CD627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE26E2C1F3CDDE6009CD627 /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
+		3D6E80261F3DEAD2000D2F66 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3DE26E251F3CDDE6009CD627 /* SwiftAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DE26E2A1F3CDDE6009CD627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D6E80281F3DEB9D000D2F66 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				3D6E80261F3DEAD2000D2F66 /* Utils.swift */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		3DE26E1C1F3CDDE6009CD627 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +111,7 @@
 		3DE26E271F3CDDE6009CD627 /* SwiftAlgorithms */ = {
 			isa = PBXGroup;
 			children = (
+				3D6E80281F3DEB9D000D2F66 /* other */,
 				3DE26E571F3CDEFB009CD627 /* sorting */,
 				3DE26E561F3CDEDD009CD627 /* resources */,
 				3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */,
@@ -284,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D6E80271F3DEAD2000D2F66 /* Utils.swift in Sources */,
 				3DE26E591F3CDF46009CD627 /* InsertionSort.swift in Sources */,
 				3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */,
 				3DE26E2B1F3CDDE6009CD627 /* ViewController.swift in Sources */,

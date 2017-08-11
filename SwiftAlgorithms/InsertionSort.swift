@@ -13,7 +13,7 @@ import Foundation
 extension Array where Element: Comparable {
     
     // sorts array by insertion sort algorithm
-    public mutating func sortedByInsertionSort() {
+    public mutating func sortByInsertionSort() {
         // not implemented
         for j in 1..<count {
             let key = self[j]
@@ -28,8 +28,8 @@ extension Array where Element: Comparable {
     }
     
     // returns sorted copy of array
-    public func performInsertionSort(on numbers: [Element]) -> [Element] {
-        var result = numbers
+    public func sortedByInsertionSort() -> [Element] {
+        var result = self
         for j in 1..<result.count {
             let key = result[j]
             // Insert key into the sorted sequence result[1 .. j - 1]

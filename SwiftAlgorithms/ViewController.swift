@@ -9,17 +9,59 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        testInsertionSort()
+        testSelectionSort()
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    // MARK: - Testing methods
+    
+    func randomIntArray() -> [Int] {
+        // implementation missing
+        return [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
     }
-
-
+    
+    func testInsertionSort() {
+        print("-- Test Insertion Sort --")
+        
+        let arr = randomIntArray()
+        let sortedWithInsertionSort = arr.sortedByInsertionSort()
+        let reallySorted = arr.sorted()
+        
+        // print detailed log
+        print("Initial array:")
+        print(arr)
+        print("Insertion:")
+        print(sortedWithInsertionSort)
+        print("Expected result:")
+        print(reallySorted)
+        
+        // result
+        print(sortedWithInsertionSort == reallySorted ? "SUCCESS" : "FAIL")
+    }
+    
+    func testSelectionSort() {
+        print("-- Test Selection Sort --")
+        
+        let arr = randomIntArray()
+        let sortedWithSelectionSort = arr.sortedBySelectionSort()
+        let reallySorted = arr.sorted()
+        
+        // print detailed log
+        print("Initial array:")
+        print(arr)
+        print("Selection:")
+        print(sortedWithSelectionSort)
+        print("Expected result:")
+        print(reallySorted)
+        
+        // result
+        print(sortedWithSelectionSort == reallySorted ? "SUCCESS" : "FAIL")
+    }
+    
 }
 
