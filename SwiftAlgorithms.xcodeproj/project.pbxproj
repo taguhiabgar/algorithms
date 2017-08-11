@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */; };
 		3DE26E291F3CDDE6009CD627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */; };
 		3DE26E2B1F3CDDE6009CD627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE26E2A1F3CDDE6009CD627 /* ViewController.swift */; };
 		3DE26E2E1F3CDDE6009CD627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DE26E2C1F3CDDE6009CD627 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		3DE26E251F3CDDE6009CD627 /* SwiftAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DE26E2A1F3CDDE6009CD627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				3DE26E581F3CDF46009CD627 /* InsertionSort.swift */,
+				3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */,
 			);
 			name = sorting;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DE26E591F3CDF46009CD627 /* InsertionSort.swift in Sources */,
+				3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */,
 				3DE26E2B1F3CDDE6009CD627 /* ViewController.swift in Sources */,
 				3DE26E291F3CDDE6009CD627 /* AppDelegate.swift in Sources */,
 			);
@@ -536,6 +540,7 @@
 				3DE26E4F1F3CDDE6009CD627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DE26E501F3CDDE6009CD627 /* Build configuration list for PBXNativeTarget "SwiftAlgorithmsTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +549,7 @@
 				3DE26E521F3CDDE6009CD627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DE26E531F3CDDE6009CD627 /* Build configuration list for PBXNativeTarget "SwiftAlgorithmsUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +558,7 @@
 				3DE26E551F3CDDE6009CD627 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
