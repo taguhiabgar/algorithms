@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BC8D85D1F433AF600C9C408 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC8D85C1F433AF600C9C408 /* MergeSort.swift */; };
 		3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */; };
 		3D6E80271F3DEAD2000D2F66 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E80261F3DEAD2000D2F66 /* Utils.swift */; };
 		3DE26E291F3CDDE6009CD627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BC8D85C1F433AF600C9C408 /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
 		3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		3D6E80261F3DEAD2000D2F66 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3DE26E251F3CDDE6009CD627 /* SwiftAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,6 +156,7 @@
 			children = (
 				3DE26E581F3CDF46009CD627 /* InsertionSort.swift */,
 				3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */,
+				2BC8D85C1F433AF600C9C408 /* MergeSort.swift */,
 			);
 			name = sorting;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC8D85D1F433AF600C9C408 /* MergeSort.swift in Sources */,
 				3D6E80271F3DEAD2000D2F66 /* Utils.swift in Sources */,
 				3DE26E591F3CDF46009CD627 /* InsertionSort.swift in Sources */,
 				3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */,

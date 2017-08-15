@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         testInsertionSort()
         testSelectionSort()
+        testMergeSort()
     }
     
     // MARK: - Testing methods
@@ -26,41 +27,40 @@ class ViewController: UIViewController {
     }
     
     func testInsertionSort() {
-        print("-- Test Insertion Sort --")
-        
-        let arr = randomIntArray()
-        let sortedWithInsertionSort = arr.sortedByInsertionSort()
-        let reallySorted = arr.sorted()
-        
-        // print detailed log
-        print("Initial array:")
-        print(arr)
-        print("Insertion:")
-        print(sortedWithInsertionSort)
-        print("Expected result:")
-        print(reallySorted)
-        
-        // result
-        print(sortedWithInsertionSort == reallySorted ? "SUCCESS" : "FAIL")
+        let array = randomIntArray()
+        testSortingAlgorithm(for: array, sorted: array.sortedByInsertionSort(), algorithmName: "Insertion")
     }
     
     func testSelectionSort() {
-        print("-- Test Selection Sort --")
+        let array = randomIntArray()
+        testSortingAlgorithm(for: array, sorted: array.sortedBySelectionSort(), algorithmName: "Selection")
+    }
+    
+    func testMergeSort() {
+        let array = randomIntArray()
+        var sorted = array
+        sorted.sortByMergeSort()
+        testSortingAlgorithm(for: array, sorted: sorted, algorithmName: "Merge")
+    }
+    
+    func testSortingAlgorithm(for array: [Int], sorted sortedArray: [Int], algorithmName: String) {
+        let reallySorted = array.sorted()
+        let status = sortedArray == reallySorted ? "SUCCESS" : "FAIL"
         
-        let arr = randomIntArray()
-        let sortedWithSelectionSort = arr.sortedBySelectionSort()
-        let reallySorted = arr.sorted()
+        // description
+        print("-- Test \(algorithmName) Sort -- \(status)")
         
         // print detailed log
         print("Initial array:")
-        print(arr)
-        print("Selection:")
-        print(sortedWithSelectionSort)
+        print(array)
+        print("\(algorithmName):")
+        print(sortedArray)
         print("Expected result:")
         print(reallySorted)
         
         // result
-        print(sortedWithSelectionSort == reallySorted ? "SUCCESS" : "FAIL")
+        print(status)
+        print()
     }
     
 }
