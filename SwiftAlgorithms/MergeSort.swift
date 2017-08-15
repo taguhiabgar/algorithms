@@ -29,7 +29,7 @@ extension Array where Element: Comparable {
             // sort those sequences
             first.sortByMergeSort()
             second.sortByMergeSort()
-            self = first + second
+            self = combineSortedSequences(first, second)
         }
         
     }
