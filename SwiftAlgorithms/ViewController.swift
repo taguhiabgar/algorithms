@@ -14,9 +14,12 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        testInsertionSort()
-        testSelectionSort()
-        testMergeSort()
+//        testInsertionSort()
+//        testSelectionSort()
+//        testMergeSort()
+        
+        testLinearSearch()
+        testBinarySearch()
     }
     
     // MARK: - Testing methods
@@ -25,6 +28,32 @@ class ViewController: UIViewController {
         // implementation missing
         return [10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
     }
+    
+    // MARK: - Test Search Algorithms
+    
+    func testLinearSearch() {
+        let array = [1, 2, 3, 4, 5, 6, 7, 8]
+        let number = 10
+        let index = array.linearSearch(number: number)
+        
+        print("-- Test Linear Search --")
+        print("Array: \(array)")
+        let stringIndex = (index == nil) ? "Not Found" : String(describing: index!)
+        print("Index of \(number): \(stringIndex)")
+    }
+    
+    func testBinarySearch() {
+        let array = [1, 2, 3, 4, 5, 6, 7, 8]
+        let number = 3
+        let index = array.binarySearch(number: number)
+        
+        print("-- Test Linear Search --")
+        print("Array: \(array)")
+        let stringIndex = (index == nil) ? "Not Found" : String(describing: index!)
+        print("Index of \(number): \(stringIndex)")
+    }
+    
+    // MARK: - Test Sorting Algorithms
     
     func testInsertionSort() {
         let array = randomIntArray()
@@ -62,6 +91,5 @@ class ViewController: UIViewController {
         print(status)
         print()
     }
-    
 }
 

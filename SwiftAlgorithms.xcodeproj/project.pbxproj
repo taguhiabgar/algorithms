@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2BC8D85D1F433AF600C9C408 /* MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC8D85C1F433AF600C9C408 /* MergeSort.swift */; };
+		2BEEE8FE1F44863F0098FB5B /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEE8FD1F44863F0098FB5B /* Search.swift */; };
 		3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */; };
 		3D6E80271F3DEAD2000D2F66 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6E80261F3DEAD2000D2F66 /* Utils.swift */; };
 		3DE26E291F3CDDE6009CD627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		2BC8D85C1F433AF600C9C408 /* MergeSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MergeSort.swift; sourceTree = "<group>"; };
+		2BEEE8FD1F44863F0098FB5B /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		3D4BE0321F3DD0F100D4EF9D /* SelectionSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionSort.swift; sourceTree = "<group>"; };
 		3D6E80261F3DEAD2000D2F66 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		3DE26E251F3CDDE6009CD627 /* SwiftAlgorithms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftAlgorithms.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BEEE8FC1F4486100098FB5B /* search */ = {
+			isa = PBXGroup;
+			children = (
+				2BEEE8FD1F44863F0098FB5B /* Search.swift */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
 		3D6E80281F3DEB9D000D2F66 /* other */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 			children = (
 				3D6E80281F3DEB9D000D2F66 /* other */,
 				3DE26E571F3CDEFB009CD627 /* sorting */,
+				2BEEE8FC1F4486100098FB5B /* search */,
 				3DE26E561F3CDEDD009CD627 /* resources */,
 				3DE26E281F3CDDE6009CD627 /* AppDelegate.swift */,
 				3DE26E2A1F3CDDE6009CD627 /* ViewController.swift */,
@@ -301,6 +312,7 @@
 				2BC8D85D1F433AF600C9C408 /* MergeSort.swift in Sources */,
 				3D6E80271F3DEAD2000D2F66 /* Utils.swift in Sources */,
 				3DE26E591F3CDF46009CD627 /* InsertionSort.swift in Sources */,
+				2BEEE8FE1F44863F0098FB5B /* Search.swift in Sources */,
 				3D4BE0331F3DD0F100D4EF9D /* SelectionSort.swift in Sources */,
 				3DE26E2B1F3CDDE6009CD627 /* ViewController.swift in Sources */,
 				3DE26E291F3CDDE6009CD627 /* AppDelegate.swift in Sources */,
